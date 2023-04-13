@@ -1,0 +1,12 @@
+{
+  
+  "speaker" : {
+    "title" : "HP ROAR PLUS WIRELESS SPEAKER",
+    "price" : "$169.99",
+    "color" : {
+      "BLUE" : "rgb(54, 131, 209)",
+      "BLACK" : "rgb(65, 65, 65)" ,
+      "PURPLE" : "rgb(84, 81, 149)" 
+    }
+  }
+}

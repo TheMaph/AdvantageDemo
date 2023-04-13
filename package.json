@@ -1,0 +1,16 @@
+{
+  "name": "advancedemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test2": "test",
+    "test": "cypress open"
+  },
+  "author": "Maria Pérez",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^12.9.0"
+  }
+}
