@@ -6,5 +6,5 @@ class CartPO{
     btnRemoveProduct() { return cy.get('.removeProduct') }
     lblTotal() { return cy.get('.cart-total') }
     productInCart() { return cy.get('#product') }
-
+    btnCart() { return cy.get('#shoppingCartLink')}
 }   export default CartPO

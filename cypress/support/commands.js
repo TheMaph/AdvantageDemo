@@ -58,7 +58,8 @@ Cypress.Commands.add('AddingProductToCart', () => {
 })
 
 Cypress.Commands.add('removeProduct', () => {
-    cartPO.btnRemoveProduct()
+    cartPO.btnCart().click()
+    cartPO.btnRemoveProduct().first()
             .click()
     cartPO.productInCart()
         .should('not.exist')

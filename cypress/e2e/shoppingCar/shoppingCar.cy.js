@@ -12,7 +12,6 @@ describe('ShoppingCar', () => {
     })
 
     it('Verificar que un artículo previamente agregado al carrito se pueda editar.', () => {
-        
         shoppingCar.btnEdit()
             .click()
             .invoke('attr','href')
@@ -24,16 +23,13 @@ describe('ShoppingCar', () => {
     });
 
     it('Verificar que un artículo previamente agregado al carrito se pueda eliminar.', () => {
-
         shoppingCar.btnRemove()
             .click()
         shoppingCar.productInCart()
             .should('not.exist')
-        
     });
 
     it('Verificar que al confirmar la compra redirija a la orden de pago.', () => {
-        
         shoppingCar.btnCheckOut()
             .should('be.visible').and('be.enabled')
         shoppingCar.btnCheckOut()

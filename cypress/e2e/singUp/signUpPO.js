@@ -2,19 +2,19 @@ class SignUpPO {
     menuUser() { return  cy.get('#menuUserLink')}
     modalLogin() { return cy.get('login-modal')}
     btnCreateAccount() { return cy.get('a.create-new-account').contains('CREATE NEW ACCOUNT')}
-    txtUserName() { return cy.get('input[name="usernameRegisterPage"]')}
-    txtEmail() { return cy.get('input[name="emailRegisterPage"]')}
-    txtPassword() { return cy.get('input[name="passwordRegisterPage"]')}
-    txtConfirmPassword() { return cy.get('input[name="confirm_passwordRegisterPage"]')}
-    txtFirstName() { return cy.get('input[name="first_nameRegisterPage"]')}
-    txtLastName() { return cy.get('input[name="last_nameRegisterPage"]')}
-    txtPhoneNumber() { return cy.get('input[name="phone_numberRegisterPage"]')}
-    listBoxCountry() { return cy.get('select[name="countryListboxRegisterPage"]')}
-    txtCity() { return cy.get('input[name="cityRegisterPage"]')}
-    txtAddress() { return cy.get('input[name="addressRegisterPage"]')}
-    txtStateProvinceRegion() { return cy.get('input[name="state_/_province_/_regionRegisterPage"]')}
-    txtPostalCode() { return cy.get('input[name="postal_codeRegisterPage"]')}
-    checkIAgree() { return cy.get('input[name="i_agree"]')}
+    txtUserName() { return cy.get('[name="usernameRegisterPage"]')}
+    txtEmail() { return cy.get('[name="emailRegisterPage"]')}
+    txtPassword() { return cy.get('[name="passwordRegisterPage"]')}
+    txtConfirmPassword() { return cy.get('[name="confirm_passwordRegisterPage"]')}
+    txtFirstName() { return cy.get('[name="first_nameRegisterPage"]')}
+    txtLastName() { return cy.get('[name="last_nameRegisterPage"]')}
+    txtPhoneNumber() { return cy.get('[name="phone_numberRegisterPage"]')}
+    listBoxCountry() { return cy.get('[name="countryListboxRegisterPage"]')}
+    txtCity() { return cy.get('[name="cityRegisterPage"]')}
+    txtAddress() { return cy.get('[name="addressRegisterPage"]')}
+    txtStateProvinceRegion() { return cy.get('[name="state_/_province_/_regionRegisterPage"]')}
+    txtPostalCode() { return cy.get('[name="postal_codeRegisterPage"]')}
+    checkIAgree() { return cy.get('[name="i_agree"]')}
     btnRegister() { return cy.get('#register_btnundefined')}
     lblName() { return cy.get('[a-hint="Username"] > .inputContainer > .animated')}
     lblEmail() { return cy.get('[a-hint="Email"] > .inputContainer > .animated')}
